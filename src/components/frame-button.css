@@ -1,0 +1,38 @@
+.frame-button-container {
+  display: flex;
+  position: relative;
+}
+.frame-button-frame-button {
+  width: 115px;
+  height: 33px;
+  display: flex;
+  padding: 6px 16px;
+  overflow: hidden;
+  align-self: center;
+  transition: 0.3s;
+  align-items: center;
+  border-style: hidden;
+  border-width: 0px;
+  padding-left: 6px 16px;
+  border-radius: 4px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-scheme-boommain);
+}
+.frame-button-frame-button:hover {
+  color: #177562;
+  border: none;
+  background-color: #177562;
+}
+.frame-button-base {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-button-text {
+  color: var(--dl-color-primary-contrast);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}

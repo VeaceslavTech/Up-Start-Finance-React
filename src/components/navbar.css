@@ -1,0 +1,104 @@
+.navbar-navbar {
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;
+  background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
+}
+.navbar-links {
+  flex: 0 0 auto;
+  width: 1165px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+}
+.navbar-text {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-text1 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-text2 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-text3 {
+  color: var(--dl-color-scheme-green80);
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-right: var(--dl-space-space-twounits);
+  text-transform: none;
+  text-decoration: none;
+}
+.navbar-text4 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.navbar-frame-button {
+  top: -6px;
+  right: 0px;
+  width: 109px;
+  height: 31px;
+  margin: auto;
+  display: flex;
+  padding: 6px 16px;
+  z-index: 100;
+  overflow: hidden;
+  position: absolute;
+  align-self: flex-end;
+  transition: 0.3s;
+  align-items: flex-end;
+  border-style: hidden;
+  border-width: 0px;
+  padding-left: 6px 16px;
+  border-radius: 4px;
+  flex-direction: column;
+  padding-bottom: 6px 16px;
+  justify-content: center;
+  background-color: var(--dl-color-scheme-boommain);
+}
+.navbar-frame-button:hover {
+  color: var(--dl-color-primary-contrast);
+  background-color: #177562;
+}
+.navbar-base {
+  gap: 8px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-login {
+  color: var(--dl-color-primary-contrast);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+.navbar-burger-menu {
+  fill: #105749;
+  width: 24px;
+  height: 24px;
+}
+.navbar-root-class-name {
+  flex: 1;
+  position: 0px;
+}
+@media(max-width: 767px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-icon {
+    fill: var(--dl-color-scheme-green100);
+  }
+}
+@media(max-width: 479px) {
+  .navbar-icon {
+    fill: var(--dl-color-scheme-boommain);
+  }
+}
